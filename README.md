@@ -16,7 +16,7 @@ A simple, easy-to-use Terraform module for provisioning and configuring AWS Secu
 
 ```hcl
 module "security_hub" {
-  source = "NVX-11/security-hub/aws"
+  source = "dc0c/security-hub/aws"
   
   enable_default_standards = true
 }
@@ -26,7 +26,7 @@ module "security_hub" {
 
 ```hcl
 module "security_hub" {
-  source = "NVX-11/security-hub/aws"
+  source = "dc0c/security-hub/aws"
   
   enable_default_standards        = true
   enable_aws_foundational_standard = true
@@ -52,14 +52,14 @@ module "security_hub" {
 
 | Name | Version |
 |------|---------|
-| terraform | >= 1.0 |
-| aws | >= 5.0 |
+| terraform | >= 1.12.0 |
+| aws | >= 6.0.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | >= 5.0 |
+| aws | >= 6.0.0 |
 
 ## Resources
 
