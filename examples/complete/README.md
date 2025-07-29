@@ -36,8 +36,8 @@ This example demonstrates advanced usage of the AWS Security Hub Terraform modul
 ## Requirements
 
 - AWS CLI configured with appropriate permissions
-- Terraform >= 1.0
-- AWS provider >= 5.0
+- Terraform >= 1.12.0
+- AWS provider >= 6.0.0
 
 ## Permissions Required
 
